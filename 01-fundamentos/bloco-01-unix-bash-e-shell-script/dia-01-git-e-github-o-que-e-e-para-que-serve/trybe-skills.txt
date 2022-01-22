@@ -1,5 +1,1 @@
-O que aprendi ate o momento na trybe:
-
-- Uni
-- Bash
-- Git
+Nada
