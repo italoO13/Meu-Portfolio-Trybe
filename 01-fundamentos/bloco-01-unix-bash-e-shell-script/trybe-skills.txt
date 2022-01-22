@@ -1,0 +1,5 @@
+O que aprendi ate o momento no curso:
+
+- Unix
+- Bahs
+- Git
