@@ -1,5 +1,5 @@
-O que aprendi ate o momento no curso:
+O que aprendi ate o momento na trybe:
 
-- Unix
-- Bahs
+- Uni
+- Bash
 - Git
