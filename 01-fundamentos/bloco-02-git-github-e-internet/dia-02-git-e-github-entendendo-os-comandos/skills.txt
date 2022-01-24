@@ -1,0 +1,8 @@
+O que aprendi ate agora:
+
+
+- Unix
+-Bash
+- Git
+- HTML
+- CSS
