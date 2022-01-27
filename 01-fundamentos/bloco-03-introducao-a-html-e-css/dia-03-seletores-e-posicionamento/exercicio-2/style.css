@@ -1,3 +1,4 @@
+
 .super-mario {
     width: 200px;
     position: absolute;
@@ -19,20 +20,23 @@
   }
   
   .speach {
+    z-index: 1;
     font-size: 25px;
     position: absolute;
     top: 240px;
     left: 570px;
-    z-index: 5;
+
   }
   
-  .bowser {
-    width: 200px;
-    position: absolute;
-    top: 380px;
-  }
+ .bowser{
+   width: 200px;
+   position: absolute;
+   top: 400px;
+   left: 810px;
 
-  body{
-      align-items: center;
-      text-align: center;
-  }
+ }
+
+ body{
+  align-items: center;
+  text-align: center;
+}
