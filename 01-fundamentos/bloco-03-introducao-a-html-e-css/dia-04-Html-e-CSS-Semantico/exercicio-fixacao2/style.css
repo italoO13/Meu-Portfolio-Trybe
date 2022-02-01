@@ -60,16 +60,101 @@ nav{
     text-shadow: 1px 1px 5px rgba(0,0,0, 1);
     max-width: 800px;
     top: 30%;
-    right: 40%;
+    right: 25%;
 }
 
 #titulo h1{
     font-size: 4rem;
 }
 
+#titulo p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.titulo-conteudo{
+    margin: 30px;
+
+}
+
+.conteudo{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.conteudo-p{
+    width: 60%;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.conteudo-p p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#filo{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid;
+    border-color: rgba(0,0,0, 0.4);
+    border-radius: 3px;
+    position: absolute;
+}
+
+#filo img{
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+#filo h3{
+    font-size: 20px;
+    background-color: #aebdca;
 
 
+}
 
+table{
+    margin: auto;
+
+}
+tr td{
+    font-style: italic;
+}
+
+
+#maisforte p{
+    text-align: left;
+    margin: auto;
+}
+
+#maisforte img{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+#maisrapido img{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+#maisrapido h2{
+    margin-top: 35px;
+}
+
+#ref h2{
+    margin: 25px;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+
+}
 /*       Animações          */
 
 @keyframes zoom{
