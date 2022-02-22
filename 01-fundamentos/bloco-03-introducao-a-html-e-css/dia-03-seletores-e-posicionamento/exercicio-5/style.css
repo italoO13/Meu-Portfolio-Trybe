@@ -1,0 +1,44 @@
+ol{
+    background-color: yellow;
+}
+ol li:nth-of-type(2n){
+    color: green;
+}
+
+li.impar{
+    text-transform: uppercase;
+}
+
+li{
+    font-size: 20px;
+}
+
+.header{
+    color: red;
+
+}
+
+.header em {
+    font-size: 40px;
+    border: 1px solid;
+}
+
+li em{
+    font-weight: 700;
+}
+
+li.j{
+    background-color: pink;
+}
+
+.top{
+    color: blue;
+}
+
+.link li:hover{
+    font-weight: 800;
+}
+
+.link li a[href*="stack"]{
+    color: red;
+}

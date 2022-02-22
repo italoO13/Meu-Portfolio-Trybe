@@ -1,0 +1,31 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+.mudacorfundo{
+    background-color: palegreen;
+}
+p{
+    font-size: 3em;
+    font-weight: 600;
+}
+body{
+    font-size: 16px;
+}
+
+ul{
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: paleturquoise;
+}
+#amarelo{
+    color: yellow;
+}
+#vermelho{
+    color: red;
+}
+#marrom{
+    color: saddlebrown;
+}
