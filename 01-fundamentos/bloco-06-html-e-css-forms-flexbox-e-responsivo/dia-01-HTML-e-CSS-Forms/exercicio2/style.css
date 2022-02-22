@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+main{
+    margin: auto;
+    background-image: url("https://st2.depositphotos.com/1001877/6491/i/600/depositphotos_64913087-stock-photo-travel-concept-suitcases-and-signpost.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+
+}
+
+
+
+.container-conteudo{
+    max-width: 700px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 90%;
+    /* background-color: #036b52; */
+    /* background-color: rgba(255, 255, 255, 0.753); */
+    background-color: rgba(0, 0,0, 0.6);
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    
+
+
+
+}
+
+.line-row{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+
+}
+
+.line-row input[type="email"], input[type="text"]{
+    width: 100%;
+    padding: 3px;
+}
+
+label{
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.local{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    color: white;
+    opacity: 0.8;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.buttoes{
+    text-align: center;
+}
+
+button{
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color:#036b52 ;
+    color: white;
+}
