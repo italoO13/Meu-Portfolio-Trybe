@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+
+    font-size: 64.5%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+header p{
+    margin-bottom: 10px;
+}
+
+nav{
+    width: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+h2{
+    font-size: 2rem;
+    margin: 15px;
+
+}
+
+nav li{
+    list-style: none;
+    font-size: 1.5rem;
+   
+}
+
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+
+aside ul{
+    width: 80%;
+
+
+}
+
+aside li{
+    margin: auto;
+    font-size: 1.5rem;
+    max-width: 300px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.paragrafo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo p{
+    font-size: 1.5rem;
+    max-width: 80%;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 80%;
+}
+
+@media screen and (min-width:425px) {
+    html{
+        font-size: 80%;
+    }
+
+    .aside{
+        width: 80%;
+        background-color: red;
+    }
+
+
+}
+
+@media screen and (min-width:885px) {
+    .paragrafo{
+        flex-wrap: wrap;
+    }
+    .paragrafo p{
+        flex-basis: 400px;
+        max-width: 400px;
+    }
+}
