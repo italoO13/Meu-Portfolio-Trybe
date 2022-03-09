@@ -123,6 +123,40 @@ describe('Exercicio 6', () => {
   });
 
 describe("Bonus 1",()=>{
+  const arr = [
+    {
+      id:"ead12345",
+      nome:"italo",
+      sobrenome:"Iveldo",
+      profissao:"Desenvolvedor"
+    },
+    {
+      id:"ead23456",
+      nome:"rodolpho",
+      sobrenome:"Martins",
+      profissao:"Estudante"
+    },
+    {
+      id:"ead34567",
+      nome:"Raysa",
+      sobrenome:"Dias",
+      profissao:"Psicologa"
+    },
+    {
+      id:"ead56789",
+      nome:"Patricia",
+      sobrenome:"Roberta",
+      profissao:"Professora"
+    },
+    {
+      id:"ead78945",
+      nome:"José",
+      sobrenome:"Martins",
+      profissao:"Sindicalista"
+    }
+  ]
+
+
     it("Verifica se searchEmployee foi definida",()=>{
         expect(searchEmployee).toBeDefined();
     });
