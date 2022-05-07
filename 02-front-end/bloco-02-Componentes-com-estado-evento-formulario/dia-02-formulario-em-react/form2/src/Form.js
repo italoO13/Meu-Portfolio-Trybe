@@ -20,11 +20,19 @@ handleForm = (event) => {
   const {target} = event
   const { name } = target;
   const value = target.type === 'checkbox' ? target.checked : target.value;
-  this.setState({[name]:value})
+  this.setState({[name]:value}, ()=> this.ErroNoFormulario())
 }
 
-ErroNoFormulario = (situacao) => {
-  this.setState({erro:true});
+ErroNoFormulario = () => {
+  const { nome, select, check } = this.state;
+  const erro = [
+    nome.length > 5,
+    select === 'Valor3',
+    check === true
+  ]
+
+  const situacao = erro.every((erro) => erro === true)
+  this.setState({erro: !situacao})
 }
 
   render() {

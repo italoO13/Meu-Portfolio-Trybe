@@ -2,11 +2,8 @@ import React from "react";
 
 class Select extends React.Component {
   render() {
-    const {handleForm, select, ErroNoFormulario, erro} = this.props
+    const {handleForm, select} = this.props
   
-    if (select === 'valor3' && !erro){
-      ErroNoFormulario()
-    };
     return(
       <label>
       selecione uma op
