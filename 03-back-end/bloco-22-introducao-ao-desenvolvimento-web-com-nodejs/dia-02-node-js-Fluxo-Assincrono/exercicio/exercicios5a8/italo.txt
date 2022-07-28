@@ -1,0 +1,1 @@
+italo estou usando Promise.all !!!
